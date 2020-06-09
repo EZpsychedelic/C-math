@@ -1,0 +1,7 @@
+CC	= gcc
+CFLAGSS = -Wall Wextra -g
+
+matrix_test: matrix.o matrix_test.o
+
+clean:
+	rm -f matrix_test *.o
